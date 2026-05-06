@@ -49,3 +49,4 @@ dev_dependencies:
     sdk: flutter
   analyzer: ^6.4.1  # This version is the "peacekeeper"
   flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
