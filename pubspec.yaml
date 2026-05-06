@@ -45,4 +45,7 @@ flutter_launcher_icons:
   image_path: "assets/app_icon.png"
   min_sdk_android: 21
 dev_dependencies:
-  flutter_launcher_icons: ^0.14.4
+  flutter_test:
+    sdk: flutter
+  analyzer: ^6.4.1  # This version is the "peacekeeper"
+  flutter_launcher_icons: ^0.13.1
