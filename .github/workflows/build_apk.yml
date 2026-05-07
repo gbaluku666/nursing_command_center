@@ -34,10 +34,9 @@ jobs:
       - name: Generate Hive Adapters
         run: dart run build_runner build --delete-conflicting-outputs
 
-      - name: Build APK
-        run: flutter build apk --release
-
-      - name: Upload APK
+     - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: release```
+          name: release-apk
+          # This line below is the fix:
+          path: build/app/outputs/flutter-apk/*.apk
